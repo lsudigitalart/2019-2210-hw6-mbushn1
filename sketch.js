@@ -28,6 +28,7 @@ function preload() {
 function setup() {
   angleMode(DEGREES);
   createCanvas(windowWidth,windowHeight);
+  imageMode(CENTER);
   background(random(0,225),random(0,225),random(0,225));
   push();
   rectMode(CENTER);
